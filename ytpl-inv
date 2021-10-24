@@ -8,7 +8,7 @@ TITLE=""
 output_help() {
 cat <<EOF
 ytpl-inv is a script to extract youtube playlists data to a json format
-that can be imported by Invidious.
+that can be imported on Invidious.
 
 usage:
 
@@ -19,9 +19,13 @@ EOF
 
 output_version() {
 cat <<EOF
-version 1.0
 
+ytpl-inv 1.0
+
+License GPLv3: GNU GPL version 3.
+This is free software: you are free to change and redistribute it.
 developed by Paulo Neto
+
 <https://www.github.com/paulobtn/ytpl-inv
 EOF
 }
