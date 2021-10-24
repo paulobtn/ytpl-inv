@@ -12,7 +12,7 @@ that can be imported on Invidious.
 
 usage:
 
-  ytpl-inv [playlist-url]
+  ytpl-inv [playlist-url] -t "<playlist-title>"
 
 EOF
 }

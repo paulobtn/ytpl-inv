@@ -25,10 +25,10 @@ export PATH="$HOME/.local/bin:$PATH"
 
 extract the playlist to a json file
 ```bash
-ytpl-inv [playlist-url] >> playlist.json
+ytpl-inv [playlist-url] -t [playlist-title] >> playlist.json
 ```
 
-On your favorite invidious instance, import the created json with "Import invidious data" 
+From your favorite invidious instance, import the created json with "Import invidious data" 
 
 ## License
 License GPLv3<br>
